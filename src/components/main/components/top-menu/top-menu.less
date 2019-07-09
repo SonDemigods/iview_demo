@@ -1,0 +1,72 @@
+.top_box {
+  box-sizing: border-box;
+  background: @primary-color;
+
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  // 标题少的用这个
+  //.top_logo {
+  //  float: left;
+  //  width: 250px;
+  //  padding-left: 20px;
+  //}
+  //
+  //.top_menu {
+  //  float: left;
+  //  height: 40px;
+  //  line-height: 40px;
+  //  width: calc(~"100% - 470px");
+
+  .top_logo {
+    float: left;
+    width: 380px;
+    padding-left: 20px;
+  }
+
+  .top_menu {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+
+    .ivu-menu-submenu {
+      &.ivu-menu-item-active {
+        background: @link-hover-color;
+      }
+    }
+
+    .ivu-menu-item {
+      &.ivu-menu-item-active {
+        background: @link-hover-color;
+      }
+    }
+
+    .ivu-menu-drop-list {
+      .ivu-menu-item {
+        font-weight: normal;
+
+        &.ivu-menu-item-selected {
+          background: @primary-color;
+          color: #ffffff;
+
+          &:hover {
+            color: #ffffff;
+          }
+        }
+
+        &:hover {
+          background: @selected-color  !important;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  .top_user {
+    float: right;
+    padding-right: 20px;
+  }
+}
