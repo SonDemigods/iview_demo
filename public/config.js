@@ -28,8 +28,8 @@ const config = (function () {
    * @description api请求基础路径
    */
   config.baseUrl = {
-    dev: 'http://192.168.40.100:9090/authenticate-api',
-    pro: 'http://192.168.71.74:8080/authenticate/'
+    dev: 'http://192.168.40.100:9090/',
+    pro: ''
   }
   /**
    * @description 默认打开的首页的路由name值，默认为home
@@ -38,11 +38,11 @@ const config = (function () {
   /**
    * @description 当前系统的名称
    */
-  config.systemName = 'personalMatters_web'
+  config.systemName = 'iview_demo'
   /**
    * @description 平台的名称
    */
-  config.productName = 'authenticate_web'
+  config.productName = 'product_web'
   /**
    * @description 平台登录地址
    */

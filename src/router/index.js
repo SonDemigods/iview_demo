@@ -16,7 +16,7 @@ const {
 Vue.use(Router)
 const router = new Router({
   routes,
-  base: '/personalMatters_web/',
+  base: '/iview_demo/',
   mode: online ? 'history' : 'hash'
 })
 
