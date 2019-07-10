@@ -14,7 +14,7 @@
              @click="toHome">
           <img src="../../assets/images/logo.png"
                style="height:24px;display:inline-block;margin:8px;vertical-align: top;" />
-          <span style="font-size: 18px;color: white;">领导干部报告个人有关事项</span>
+          <span style="font-size: 18px;color: white;">iview_demo</span>
         </div>
         <div slot="right">
           <user :user-avator="userAvator"
